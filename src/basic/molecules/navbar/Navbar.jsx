@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <div  className='opacity-90 static text-white'>
-      <Container maxWidth="xl" className="bg-slate-900">
+      <Container maxWidth="xl" className="bg-blue-900">
         <Toolbar disableGutters>
         <div className="text-2xl flex items-center transition ease-in-out delay-150 scale-95 font-bold hover:scale-100 cursor-default   drop-shadow-lg hover:drop-shadow-sm hover:text-blue-200 ">
             Neelanshu Garg</div>
