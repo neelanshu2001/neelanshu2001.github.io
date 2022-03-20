@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
-import AppBar from '@mui/material/AppBar';
+
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
+
 import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
+
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
@@ -29,8 +29,8 @@ const Navbar = () => {
 
 
   return (
-    <AppBar position="static" className='opacity-90'>
-      <Container maxWidth="xl">
+    <div  className='opacity-90 static text-white'>
+      <Container maxWidth="xl" className="bg-slate-900">
         <Toolbar disableGutters>
         <div className="text-2xl flex items-center transition ease-in-out delay-150 scale-95 font-bold hover:scale-100 cursor-default   drop-shadow-lg hover:drop-shadow-sm hover:text-blue-200 ">
             Neelanshu Garg</div>
@@ -84,7 +84,7 @@ const Navbar = () => {
   
         </Toolbar>
       </Container>
-    </AppBar>
+    </div>
   );
 };
 export default Navbar;
