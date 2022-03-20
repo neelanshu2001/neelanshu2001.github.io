@@ -1,7 +1,7 @@
 import React from 'react'
-import Bg from "../assets/img/bg.png"
-import Libraries from '../basic/molecules/Libraries'
-import Lang from '../basic/molecules/Lang'
+
+
+import Skills from '../basic/molecules/Skills'
 
 const HomeLayout=()=> {
 const name=['mongodb','matlab','nodejs','react']
@@ -18,14 +18,14 @@ const lang=['cplusplus','python','javascript']
                 <div className="ml-2  text-lg font-semibold">
                         Programming
                     </div>
-                    <Lang name={lang}/>
+                    <Skills name={lang} paddingCircle={5}/>
                 </div>
                 <div className={`bg-slate-100 py-2 space-y-2 bg-opacity-90 rounded-lg drop-shadow-lg  my-10  text-black  hover:drop-shadow-md transition delay-150 hover:scale-105 flex flex-col  justify-around`}>
                     <div className="ml-2  text-lg font-semibold">
                         Development
                     </div>
-                    <Libraries name={name}/>
-                       
+                    
+                    <Skills name={name} paddingCircle={4}/>
                     
                 </div>
             </div>
