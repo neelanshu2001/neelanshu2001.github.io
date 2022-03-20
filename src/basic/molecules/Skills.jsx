@@ -32,7 +32,7 @@ const Skills=({name,paddingCircle})=> {
                         }} 
                         >
                            { 
-                             name.map((item,key)=>(<div className=" flex flex-row justify-center "><div className={`bg-gray-50 hover:bg-white rounded-full p-${paddingCircle}`}><Image name={item} key={key}  /></div></div>) )
+                             name.map((item,key)=>(<div className=" flex flex-row justify-center "  key={key}><div className={`bg-gray-50 hover:bg-white rounded-full p-${paddingCircle}`}><Image name={item} key={key}  /></div></div>) )
                            }
                         </Carousel>
     )
