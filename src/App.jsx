@@ -4,19 +4,19 @@ import Navbar from './basic/molecules/navbar/Navbar'
 import { Link,Routes,Route } from 'react-router-dom'
 
 import './App.css'
+import Handwritten from './layouts/Handwritten'
 
 const App=()=> {
   
 
   return (
-    <div className="h-screen bg-blue-100  text-white flex flex-col hover:text-indigo-100 ">
-      <div className="mx-8 rounded-lg drop-shadow-md h-full ">
-      <Navbar />
+    
+      
       <Routes>
         <Route path="/" element={<HomeLayout />} />
+        <Route path="/handwritten-recognition" element={<Handwritten />}/>
       </Routes>
-      </div>
-    </div>
+     
   )
 }
 
