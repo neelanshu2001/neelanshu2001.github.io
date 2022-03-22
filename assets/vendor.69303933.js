@@ -296,4 +296,4 @@ PERFORMANCE OF THIS SOFTWARE.
  * LICENSE.md file in the root directory of this source tree.
  *
  * @license MIT
- */function lre(e){let{basename:t,children:n,window:r}=e,o=p.exports.useRef();o.current==null&&(o.current=Nne({window:r}));let i=o.current,[a,s]=p.exports.useState({action:i.action,location:i.location});return p.exports.useLayoutEffect(()=>i.listen(s),[i]),p.exports.createElement(Vne,{basename:t,children:n,location:a.location,navigationType:a.action,navigator:i})}export{lre as B,RO as F,sre as R,are as _,M as a,zne as b,bm as c,De as j,ep as m,p as r};
+ */function lre(e){let{basename:t,children:n,window:r}=e,o=p.exports.useRef();o.current==null&&(o.current=Nne({window:r}));let i=o.current,[a,s]=p.exports.useState({action:i.action,location:i.location});return p.exports.useLayoutEffect(()=>i.listen(s),[i]),p.exports.createElement(Vne,{basename:t,children:n,location:a.location,navigationType:a.action,navigator:i})}export{lre as B,sre as R,are as _,M as a,zne as b,bm as c,De as j,ep as m,p as r};
