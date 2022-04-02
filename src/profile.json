@@ -1,0 +1,161 @@
+{
+    "contact": {
+      "phone": "+91 8800170377",
+      "email": "neelanshgarg0@gmail.com",
+      "website": "https://neelanshu2001.github.io/"
+    },
+    "skills": [
+      {
+        "title": "General",
+        "type": "percent",
+        "subskills": [
+          
+          {
+            "name": "Mobile/Web App Development",
+            "percent": 40
+          },
+          {
+            "name": "Product Management",
+            "percent": 72
+          },
+          
+          
+          
+          {
+            "name": "Backend Development",
+            "percent": 60
+          },
+          {
+            "name": "Data Science",
+            "percent": 65
+          }
+          
+          
+        ]
+      },
+      {
+        "title": "Languages",
+        "type": "percent",
+        "subskills": [
+          {
+            "name": "Javascript",
+            "percent": 78
+          },
+          
+          {
+            "name": "Python",
+            "percent": 60
+          },
+          {
+            "name": "C++",
+            "percent": 88
+          }
+         
+        ]
+      },
+      {
+        "title": "Frameworks",
+        "type": "tag",
+        "subskills": [
+          {
+            "name": "React"
+          },
+          {
+            "name": "Flask"
+          },
+          {
+            "name": "React Native"
+          },
+          {
+            "name": "Tailwind"
+          },
+          {
+            "name": "MaterialUI"
+          },
+          
+          {
+            "name": "Node"
+          },
+         
+          {
+            "name": "Express"
+          }
+         
+          
+        ]
+      },
+      
+      {
+        "title": "Databases",
+        "type": "tag",
+        "subskills": [
+         
+          {
+            "name": "Mongodb"
+          }
+        ]
+      }
+    ],
+    "summary": "Highly focused technologist with a multidisciplinary skill . I strive to build great products and can take an initial idea, tackle it from multiple angles and take it from something great to something incredible.",
+    "education": [
+      {
+        "institution": "Indian Institue of Technology, Indore",
+        "degree": "Electrical Engineering",
+        "start": "2019",
+        "end": "2023"
+      },
+      {
+        "institution": "Greemway Modern Shcool, Delhi",
+        "degree": "High School",
+        "start": "2016",
+        "end": "2019"
+      }
+    ],
+    "experience": [
+      
+      {
+        "role": "Front End Developer",
+        "company": "Inter IIT Tech Meet 10.0",
+        "description": "Part of a team focused to build a webapp to ease investment in saas companies",
+        "start": "01/03/2022",
+        "end": "21/03/2022"
+      }
+    ],
+    "social": [
+      
+      {
+        "service": "linkedin",
+        "url": "https://www.linkedin.com/in/neelanshu-garg-602a41186/"
+      },
+      {
+        "service": "twitter",
+        "url": ""
+      },
+      {
+        "service": "angellist",
+        "url": ""
+      },
+      {
+        "service": "github",
+        "url": "https://github.com/neelanshu2001"
+      },
+      {
+        "service": "facebook",
+        "url": ""
+      },
+      {
+        "service": "instagram",
+        "url": ""
+      }
+    ],
+    "role": "Technologist",
+    "projects": [
+        {"name":"Handwritten Alphanumeric  Recognition" ,
+        "description":"CNN based approach to identify handwritten alpha0numeric characters",
+        "link":"/handwritten","web":null},
+        {"name":"Contest Tracker Website",
+        "description":"A website to track contests from various websites and allowing user to link their gooogle calendar with it",
+        "link":null,"web":"https://secret-reef-31415.herokuapp.com/"}],
+    "fullname": "Neelanshu Garg"
+  }
+  

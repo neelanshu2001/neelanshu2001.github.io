@@ -1,7 +1,7 @@
 
 
 import ImageContainer from '../components/ImageContainer';
-import Navbar from '../components/Navbar';
+import NavbarDigit from '../components/NavbarDigit';
 import Predicted from '../components/Predicted';
 import { useState } from 'react'
 import axios from 'axios';
@@ -46,12 +46,12 @@ const fileSelectHandler=(e)=>{
   return (
     <div className="bg-gray-200 h-screen pt-6">
     <div className="mx-10 bg-white rounded-xl overflow-hidden shadow-md h-[90.5vh]">
-     <Navbar/>
+    {<NavbarDigit/>}
      <div className="flex flex-row justify-center space-x-20">
 
       <ImageContainer initialState={initialState} onPredict={()=>onClick()} onCurrent={(e)=>{fileSelectHandler(e)}}/>
       <Predicted prediction={prediction}/>
-</div>
+</div> 
     </div>
     </div>
   )
